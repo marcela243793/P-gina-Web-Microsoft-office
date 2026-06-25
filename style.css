@@ -9,7 +9,7 @@ font-family:'Poppins',sans-serif;
 background:#f4f6f9;
 color:#333;
 line-height:1.8;
-font-size:22px;
+font-size:24px;
 scroll-behavior:smooth;
 }
 
@@ -386,6 +386,40 @@ line-height:2.2;
 
 #examen{
 line-height:2;
+}
+
+}
+
+@media (max-width:768px){
+
+body{
+    font-size:24px;
+}
+
+p,
+li,
+td,
+th,
+label,
+button,
+input{
+    font-size:24px;
+}
+
+h1{
+    font-size:48px;
+}
+
+h2{
+    font-size:36px;
+}
+
+h3{
+    font-size:30px;
+}
+
+nav a{
+    font-size:20px;
 }
 
 }
