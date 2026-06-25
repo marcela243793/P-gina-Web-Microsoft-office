@@ -202,17 +202,20 @@ margin-bottom:15px;
 table{
 width:100%;
 border-collapse:collapse;
+font-size:22px;
 }
 
 table th{
 background:#0078D4;
 color:white;
-padding:12px;
+padding:20px;
+font-size:24px;
 }
 
 table td{
-padding:12px;
+padding:18px;
 border:1px solid #ddd;
+font-size:22px;
 }
 
 table tr:nth-child(even){
