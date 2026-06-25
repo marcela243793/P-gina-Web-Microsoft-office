@@ -332,26 +332,59 @@ margin:6px;
 
 }
 
-/* TEXTO MÁS GRANDE EN CELULARES */
+/* LETRAS MÁS GRANDES EN CELULAR */
 
-@media(max-width:768px){
+@media (max-width:768px){
 
 body{
 font-size:18px;
 }
 
-#examen p{
-font-size:22px;
-font-weight:500;
+section h2{
+font-size:36px;
 }
 
-input[type="radio"]{
+#examen p{
+font-size:22px;
+font-weight:600;
+line-height:1.5;
+}
+
+#examen input[type="radio"]{
 transform:scale(1.3);
 margin-right:10px;
 }
 
 #examen{
 font-size:18px;
+}
+
+}
+
+/* EXAMEN EN CELULAR */
+@media (max-width:768px){
+
+#examen{
+font-size:24px;
+}
+
+#examen p{
+font-size:22px;
+font-weight:600;
+}
+
+#examen input[type="radio"]{
+transform:scale(1.8);
+margin-right:12px;
+}
+
+/* Hace más grandes las respuestas */
+#examen br{
+line-height:2.2;
+}
+
+#examen{
+line-height:2;
 }
 
 }
