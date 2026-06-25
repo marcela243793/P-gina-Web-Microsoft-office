@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Microsoft Office Profesional</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="hero">
+
+<div class="hero-contenido">
+
+<h1>MICROSOFT OFFICE</h1>
+
+<p>
+La suite de productividad más utilizada del mundo.
+Documentos, hojas de cálculo, presentaciones,
+bases de datos y herramientas colaborativas.
+</p>
+
+<a href="#aplicaciones" class="btn">
+Explorar Aplicaciones
+</a>
+
+</div>
+
+</header>
+
+<nav>
+
+<a href="#inicio">Inicio</a>
+<a href="#historia">Historia</a>
+<a href="#aplicaciones">Aplicaciones</a>
+<a href="#galeria">Galería</a>
+<a href="#ventajas">Ventajas</a>
+<a href="#tabla">Tabla</a>
+<a href="#examen">Examen</a>
+
+</nav>
+
+<section id="inicio">
+
+<h2>¿Qué es Microsoft Office?</h2>
+
+Microsoft Office es una suite de aplicaciones desarrollada por Microsoft que permite crear, editar, organizar y compartir información de manera eficiente en entornos educativos, empresariales y personales. 
+
+Está compuesta por herramientas ampliamente utilizadas como Word, Excel, PowerPoint, Access, Outlook y OneNote, cada una diseñada para realizar tareas específicas relacionadas con la productividad digital.
+
+Gracias a sus funciones avanzadas, los usuarios pueden redactar documentos profesionales, crear hojas de cálculo, diseñar presentaciones, administrar bases de datos, gestionar correos electrónicos y organizar información de forma rápida y segura.
+
+Actualmente Microsoft Office forma parte de Microsoft 365, incorporando almacenamiento en la nube, trabajo colaborativo en tiempo real, sincronización entre dispositivos y actualizaciones constantes que mejoran la experiencia de los usuarios.
+
+
+
+<div id="reloj"></div>
+
+</section>
+
+<section id="historia">
+
+<h2>Historia</h2>
+
+<p>
+Microsoft Office nació en 1989 y con el tiempo se
+convirtió en una de las herramientas más importantes
+para estudiantes, empresas y profesionales.
+Actualmente forma parte de Microsoft 365.
+</p>
+
+</section>
+
+<section id="aplicaciones">
+
+<h2>Aplicaciones Principales</h2>
+
+<div class="contenedor">
+
+<div class="card">
+<img src="Word.jpg">
+<h3>Word</h3>
+<p>Procesador de texto profesional.</p>
+</div>
+
+<div class="card">
+<img src="Excel.png">
+<h3>Excel</h3>
+<p>Hojas de cálculo y análisis de datos.</p>
+</div>
+
+<div class="card">
+<img src="Powerpoint.jpg">
+<h3>PowerPoint</h3>
+<p>Presentaciones dinámicas.</p>
+</div>
+
+<div class="card">
+<img src="Access2.png">
+<h3>Access</h3>
+<p>Administración de bases de datos.</p>
+</div>
+
+<div class="card">
+<img src="Outlook2.jpg">
+<h3>Outlook</h3>
+<p>Correo electrónico y calendario.</p>
+</div>
+
+<div class="card">
+<img src="Onenote.jpg">
+<h3>OneNote</h3>
+<p>Notas digitales inteligentes.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="galeria">
+
+<h2>Galería Office</h2>
+
+<div class="galeria">
+
+<img src="Word2.png">
+
+<img src="Excel2.jpg">
+
+<img src="Powerpoint2.jpg"
+
+<img src="Access.jpg">
+
+<img src="Outlook.png">
+
+<img src="Onenote.jpg">
+
+</div>
+
+</section>
+
+<section id="ventajas">
+
+<h2>Ventajas</h2>
+
+<ul>
+
+<li>Fácil de usar.</li>
+<li>Compatible con múltiples dispositivos.</li>
+<li>Trabajo colaborativo.</li>
+<li>Almacenamiento en la nube.</li>
+<li>Herramientas profesionales.</li>
+<li>Actualizaciones constantes.</li>
+
+</ul>
+
+</section>
+
+<section id="tabla">
+
+<h2>Tabla con Buscador</h2>
+
+<input
+type="text"
+id="buscar"
+placeholder="Buscar aplicación..."
+onkeyup="buscarPrograma()">
+
+<table id="tablaOffice">
+
+<thead>
+
+<tr>
+<th>Programa</th>
+<th>Función</th>
+<th>Uso</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>Word</td>
+<td>Procesador de texto</td>
+<td>Documentos</td>
+</tr>
+
+<tr>
+<td>Excel</td>
+<td>Hoja de cálculo</td>
+<td>Cálculos</td>
+</tr>
+
+<tr>
+<td>PowerPoint</td>
+<td>Presentaciones</td>
+<td>Diapositivas</td>
+</tr>
+
+<tr>
+<td>Access</td>
+<td>Base de datos</td>
+<td>Información</td>
+</tr>
+
+<tr>
+<td>Outlook</td>
+<td>Correo electrónico</td>
+<td>Comunicación</td>
+</tr>
+
+<tr>
+<td>OneNote</td>
+<td>Notas</td>
+<td>Organización</td>
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<section id="examen">
+
+<h2>Examen Interactivo</h2>
+
+<div class="progreso">
+<div id="barraProgreso"></div>
+</div>
+
+<p>1. ¿Qué programa se utiliza para crear documentos?</p>
+<input type="radio" name="p1" id="p1"> Word<br>
+<input type="radio" name="p1"> Excel<br><br>
+
+<p>2. ¿Qué programa sirve para hojas de cálculo?</p>
+<input type="radio" name="p2" id="p2"> Excel<br>
+<input type="radio" name="p2"> Outlook<br><br>
+
+<p>3. ¿Qué programa sirve para presentaciones?</p>
+<input type="radio" name="p3"> Word<br>
+<input type="radio" name="p3" id="p3"> PowerPoint<br><br>
+
+<p>4. ¿Qué programa administra bases de datos?</p>
+<input type="radio" name="p4" id="p4"> Access<br>
+<input type="radio" name="p4"> Word<br><br>
+
+<p>5. ¿Qué programa gestiona correos electrónicos?</p>
+<input type="radio" name="p5" id="p5"> Outlook<br>
+<input type="radio" name="p5"> Excel<br><br>
+
+<p>6. ¿Qué empresa desarrolla Microsoft Office?</p>
+<input type="radio" name="p6" id="p6">
+Microsoft<br> <input type="radio" name="p6"> Google<br><br>
+
+<p>7.¿Qué aplicación sirve para notas digitales?</p>
+<input type="radio" name="p7" id="p7">
+OneNote<br> <input type="radio" name="p7">
+Word<br><br>
+
+<p>8.¿Qué aplicación crea presentaciones?</p>
+<input type="radio" name="p8" id="p8">PowerPoint<br> <input type="radio" name="p8">
+Outlook<br><br>
+
+<p>9.¿Cuál aplicación permite crear tablas de cálculo?</p>
+<input type="radio" name="p9" id="p8">Excel<br> <input type="radio" name="p9">
+Access<br><br>
+
+<p>10.¿Qué aplicación organiza correos y calendario?</p>
+<input type="radio" name="p10" id="p10">
+Outlook<br>
+<input type="radio" name="p10">Word<br><br>
+
+<p>11.¿Qué aplicación administra bases de datos?</p>
+<input type="radio" name="p11" id="p11">Access<br>
+<input type="radio" name="p11">PowerPoint<br><br>
+
+<p>12.¿Dónde pueden almacenarse archivos de Microsoft 365?</p>
+<input type="radio" name="p12" id="p12">OneDrive<br>
+<input type="radio" name="p10">TikTok<br><br>
+
+Completa el examen📝para generar tu certificado. 
+
+<button onclick="evaluar()">
+Finalizar Examen
+</button>
+
+</section>
+
+<section id="certificado">
+
+<h2>Certificado</h2>
+
+<div class="certificado">
+
+<h3>🏆 CERTIFICADO DE APROBACIÓN 🏆</h3>
+
+<p id="resultado">
+Completa el examen para obtener tu resultado.
+</p>
+
+</div>
+
+</section>
+
+<section id="curiosidades">
+
+<h2>Curiosidades sobre Office</h2>
+
+<div class="contenedor">
+
+<div class="card">
+<h3>📄 Word</h3>
+<p>Es uno de los procesadores de texto más utilizados del mundo.</p>
+</div>
+
+<div class="card">
+<h3>📊 Excel</h3>
+<p>Puede manejar millones de datos en una sola hoja.</p>
+</div>
+
+<div class="card">
+<h3>📽️ PowerPoint</h3>
+<p>Se utiliza en escuelas, universidades y empresas.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="estadisticas">
+
+<h2>Datos Importantes</h2>
+
+<div class="contenedor">
+
+<div class="card">
+<h3>1989</h3>
+<p>Año de lanzamiento de Microsoft Office.</p>
+</div>
+
+<div class="card">
+<h3>1000M+</h3>
+<p>Usuarios en todo el mundo.</p>
+</div>
+
+<div class="card">
+<h3>7+</h3>
+<p>Aplicaciones principales incluidas.</p>
+</div>
+
+</div>
+
+</section>
+
+<button id="btnArriba">
+⬆
+</button>
+
+<footer>
+
+<h3>Microsoft Office</h3>
+
+<p>
+Proyecto educativo desarrollado con HTML, CSS y JavaScript.
+</p>
+
+<p>
+Diseño Profesional 2026
+</p>
+
+<p>
+    Creado por la estudiante de sistemas - Inis Marcela Paternina Lázaro 🫶🏼
+</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
