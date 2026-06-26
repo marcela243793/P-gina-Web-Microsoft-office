@@ -189,24 +189,24 @@ margin-top:20px;
 
 #buscar{
 width:100%;
-padding:12px;
-font-size:16px;
-border-radius:10px;
+padding:14px;
+font-size:18px;
+border-radius:12px;
 border:1px solid #ccc;
-margin-bottom:15px;
+margin-bottom:17px;
 }
 
 table{
 width:100%;
 border-collapse:collapse;
-font-size:22px;
+font-size:24px;
 }
 
 table th{
 background:#0078D4;
 color:white;
-padding:20px;
-font-size:24px;
+padding:22px;
+font-size:26px;
 }
 
 table td{
@@ -226,7 +226,7 @@ background:#dceeff;
 /* EXAMEN */
 
 input[type="radio"]{
-margin-right:8px;
+margin-right:12px;
 }
 
 button{
@@ -386,40 +386,6 @@ line-height:2.2;
 
 #examen{
 line-height:2;
-}
-
-}
-
-@media (max-width:768px){
-
-body{
-    font-size:24px;
-}
-
-p,
-li,
-td,
-th,
-label,
-button,
-input{
-    font-size:24px;
-}
-
-h1{
-    font-size:48px;
-}
-
-h2{
-    font-size:36px;
-}
-
-h3{
-    font-size:30px;
-}
-
-nav a{
-    font-size:20px;
 }
 
 }
