@@ -68,7 +68,7 @@ margin-bottom:24px;
 }
 
 .hero-contenido p{
-    font-size:30px;
+    font-size:36px;
     line-height:1.8;
     max-width:800px;
     margin:20px auto;
@@ -101,7 +101,7 @@ text-align:center;
 nav a{
     color:white;
     text-decoration:none;
-    font-size:28px;   /* Tamaño de la letra */
+    font-size:30px;   /* Tamaño de la letra */
     font-weight:600;  /* Un poco más gruesa */
     padding:15px 20px;
 }
@@ -131,7 +131,7 @@ margin-bottom:15px;
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-gap:20px;
+gap:26px;
 }
 
 .card{
@@ -180,40 +180,40 @@ transform:scale(1.08);
 /* RELOJ */
 
 #reloj{
-font-size:28px;
+font-size:30px;
 font-weight:bold;
 color:#0078D4;
-margin-top:20px;
+margin-top:26px;
 }
 
 /* TABLA */
 
 #buscar{
 width:100%;
-padding:14px;
-font-size:18px;
-border-radius:12px;
+padding:16px;
+font-size:20px;
+border-radius:14px;
 border:1px solid #ccc;
-margin-bottom:17px;
+margin-bottom:19px;
 }
 
 table{
 width:100%;
 border-collapse:collapse;
-font-size:24px;
+font-size:26px;
 }
 
 table th{
 background:#0078D4;
 color:white;
-padding:22px;
-font-size:26px;
+padding:24px;
+font-size:28px;
 }
 
 table td{
-padding:18px;
+padding:20px;
 border:1px solid #ddd;
-font-size:22px;
+font-size:24px;
 }
 
 table tr:nth-child(even){
@@ -227,7 +227,7 @@ background:#dceeff;
 /* EXAMEN */
 
 input[type="radio"]{
-margin-right:16px;
+margin-right:20px;
 }
 
 button{
@@ -235,7 +235,7 @@ background:#0078D4;
 color:white;
 border:none;
 padding:12px 25px;
-border-radius:10px;
+border-radius:12px;
 cursor:pointer;
 font-size:16px;
 transition:.3s;
@@ -267,7 +267,7 @@ transition:1s;
 
 .certificado{
 text-align:center;
-padding:30px;
+padding:32px;
 border:4px solid gold;
 border-radius:20px;
 background:#fffbea;
@@ -283,7 +283,7 @@ margin-bottom:20px;
 
 #btnArriba{
 position:fixed;
-bottom:20px;
+bottom:26px;
 right:20px;
 width:55px;
 height:55px;
@@ -291,7 +291,7 @@ border:none;
 border-radius:50%;
 background:#0078D4;
 color:white;
-font-size:22px;
+font-size:24px;
 cursor:pointer;
 box-shadow:0 4px 10px rgba(0,0,0,.3);
 }
