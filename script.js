@@ -114,8 +114,36 @@ if(document.getElementById("p5")?.checked){
 puntos++;
 }
 
+ if(document.getElementById("p6")?.checked){
+    puntos++;
+}
+
+if(document.getElementById("p7")?.checked){
+    puntos++;
+}
+
+if(document.getElementById("p8")?.checked){
+    puntos++;
+}
+
+if(document.getElementById("p9")?.checked){
+    puntos++;
+}
+
+if(document.getElementById("p10")?.checked){
+    puntos++;
+}
+
+if(document.getElementById("p11")?.checked){
+    puntos++;
+}
+
+if(document.getElementById("p12")?.checked){
+    puntos++;
+}
+
 let porcentaje =
-(puntos/5)*100;
+(puntos/12)*100;
 
 const barra =
 document.getElementById("barraProgreso");
@@ -130,7 +158,7 @@ document.getElementById("resultado");
 
 if(resultado){
 
-if(puntos >= 4){
+if(puntos >= 10){
 
 resultado.innerHTML =
 "🏆 FELICIDADES<br><br>Has aprobado el examen con "
@@ -157,12 +185,12 @@ mensaje =
 "🏆 Excelente.\n\nObtuviste 12/12.";
 
 }
-else if(puntos >= 3){
+else if(puntos >= 6){
 
 mensaje =
 "👍 Muy bien.\n\nObtuviste "
 + puntos +
-"/5.";
+"/12.";
 
 }
 else{
