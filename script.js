@@ -135,7 +135,7 @@ if(puntos >= 4){
 resultado.innerHTML =
 "🏆 FELICIDADES<br><br>Has aprobado el examen con "
 + puntos +
-" respuestas correctas de 5.";
+" respuestas correctas de 12.";
 
 }
 else{
@@ -143,7 +143,7 @@ else{
 resultado.innerHTML =
 "📚 Debes estudiar un poco más📖y esforzarte para tener un buen resultado.<br><br>Obtuviste "
 + puntos +
-" respuestas correctas de 5.";
+" respuestas correctas de 12.";
 
 }
 
@@ -151,10 +151,10 @@ resultado.innerHTML =
 
 let mensaje = "";
 
-if(puntos === 5){
+if(puntos === 12){
 
 mensaje =
-"🏆 Excelente.\n\nObtuviste 5/5.";
+"🏆 Excelente.\n\nObtuviste 12/12.";
 
 }
 else if(puntos >= 3){
