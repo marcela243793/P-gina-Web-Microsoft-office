@@ -120,6 +120,12 @@ border-radius:20px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 
+section p{
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 22px;
+}
+
 section h2{
 color:#0078D4;
 margin-bottom:15px;
